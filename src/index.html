@@ -29,27 +29,35 @@
                     <input id="number" type="number" min="7" max="125" placeholder="Age" />
                 </label>
 
-                <select id="dropdown">
-                    <option value="">
-                        (Select an option)
-                    </option>
-                    <option value="Marvel">
-                        Marvel Comics 
-                    </option>
-                    <option value="DC-Comics">
-                        DC Comics
-                    </option>
-                    <option value="Boom">
-                        Boom Studios
-                    </option>
-                    <option value="Image">
-                        Image Comics
-                    </option>
-                    <option value="Other">
-                        Other
-                    </option>
+                <label> How do you tend to read your comics?
+                    <input type="radio" name="reading-style" value="physical"> Physical/Floppy                
+                </label>
+                <label>
+                    <input type="radio" name="reading-style" value="digital"> Digital/Online
+                </label>
 
-                </select>
+                <label id="dropdown-label"> What Company Do You Read Most?
+                    <select id="dropdown">
+                        <option value="">
+                            (Select an option)
+                        </option>
+                        <option value="Marvel">
+                            Marvel Comics 
+                        </option>
+                        <option value="DC-Comics">
+                            DC Comics
+                        </option>
+                        <option value="Boom">
+                            Boom Studios
+                        </option>
+                        <option value="Image">
+                            Image Comics
+                        </option>
+                        <option value="Other">
+                            Other
+                        </option>
+                    </select>
+                </label>
                 
             </fieldset>
         </form>
