@@ -40,6 +40,21 @@ label {
 	margin: .5rem 0;
 }
 
+form {
+	margin: 0 auto;
+	max-width: 600px;
+	min-width: 300px;
+	width: 80vw;
+	padding-bottom: 2em;
+}
+
+input,
+text,
+select {
+	width: 100%;
+	margin: auto;
+}
+
 fieldset,
 h4,
 p {
