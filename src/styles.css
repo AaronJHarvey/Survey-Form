@@ -1,6 +1,9 @@
 @font-face {
 	src: url(../fonts/The-Amazing-Spider-Man.ttf);
 	font-family: ASM;
+
+	src: url(../fonts/mangat.ttf);
+	font-family: Manga;
 }
 
 body {
@@ -17,7 +20,7 @@ body {
 }
 
 h1 {
-	font-size: 50px;
+	font-size: 40px;
 	font-family: ASM;
 	font-style: italic;
 	margin-top: 10px;
@@ -25,14 +28,16 @@ h1 {
 	padding-top: 5px;
 }
 
+#survey-date {
+	font-size: 15px;
+	font-family: Manga;
+	font-style: italic;
+	margin: -25px 0 -5px 0;
+}
+
 label {
 	display: block;
 	margin: .5rem 0;
-}
-
-body {
-	background-image: url('https://images.unsplash.com/photo-1588497859490-85d1c17db96d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80');
-	background-size: 100%;
 }
 
 fieldset,
