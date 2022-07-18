@@ -29,7 +29,12 @@
                     <input id="number" type="number" min="7" max="125" placeholder="Age" />
                 </label>
 
-                <label> What Companies do you buy/read regularly?
+                <label> How Long Have You Been Reading Comics?
+                    <input id="reading-experience" type="number" min='0' max='125' placeholder="years">
+                </label>
+
+                <label> What Companies do you buy/read regularly? (Please Choose All That Apply)
+                    
                     <input type="checkbox" name="company" value="marvel">Marvel
                 </label>
                 <label>
@@ -38,8 +43,18 @@
                 <label>
                     <input type="checkbox" name="company" value="boom">Boom Studios
                 </label>
+                <label>
+                    <input type="checkbox" name="company" value="image"> Image Comics
+                </label>
+                <label>
+                    <input type="checkbox" name="company" value="dark-horse"> Dark Horse
+                </label>
+                <label>
+                    <input type="checkbox" name="company" value="other">Other
+                </label>
 
-                <label> How do you tend to read your comics?
+
+                <label> How do you most often read your comics?
                     <input type="radio" name="reading-style" value="physical"> Physical/Floppy                
                 </label>
                 <label>
@@ -71,11 +86,10 @@
                             $100+
                         </option>
                     </select>
-
                 </label>
 
-                
             </fieldset>
         </form>
     </body>
 </html>
+
