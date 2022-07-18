@@ -9,9 +9,13 @@ body {
 }
 
 h1 {
-	font-size: 40px;
+	font-size: 50px;
 	font-family: ASM;
-	color: red;
+	font-style: italic;
+	margin-top: 10px;
+	text-align: center;
+	padding-top: 5%;
+	background-color: rgb(65, 65, 1);
 }
 
 label {
@@ -25,7 +29,6 @@ body {
 }
 
 fieldset,
-h1,
 h4,
 p {
 	background-color: black;
