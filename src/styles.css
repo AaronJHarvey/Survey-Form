@@ -13,10 +13,12 @@ body {
 }
 
 #survey {
-	text-align: center;
 	padding: 10px;
 	max-width: 600px;
 	margin: auto;
+	background-color: black;
+	opacity: .85;
+	color: white;
 }
 
 h1 {
@@ -29,6 +31,7 @@ h1 {
 }
 
 #survey-date {
+	text-align: center;
 	font-size: 15px;
 	font-family: Manga;
 	font-style: italic;
@@ -38,27 +41,30 @@ h1 {
 label {
 	display: block;
 	margin: .5rem 0;
+	width: 100%;
 }
 
 form {
 	margin: 0 auto;
 	max-width: 600px;
 	min-width: 300px;
-	width: 80vw;
 	padding-bottom: 2em;
 }
 
 input,
-text,
-select {
+text {
 	width: 100%;
 	margin: auto;
 }
 
-fieldset,
-h4,
-p {
-	background-color: black;
-	opacity: .85;
-	color: white;
+.inline,
+[type=checkbox] {
+	width: unset;
+	margin: 0 .5em 0 0;
+	vertical-align: middle;
+}
+
+[type=checkbox] {
+	width: unset;
+	vertical-align: middle;
 }
