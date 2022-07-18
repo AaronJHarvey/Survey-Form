@@ -16,8 +16,7 @@ body {
 	padding: 10px;
 	max-width: 600px;
 	margin: auto;
-	background-color: black;
-	opacity: .85;
+	background-color: hsla(0, 0%, 0%, 0.85);
 	color: white;
 }
 
@@ -42,6 +41,7 @@ label {
 	display: block;
 	margin: .5rem 0;
 	width: 100%;
+	font-size: 18px;
 }
 
 form {
@@ -51,11 +51,11 @@ form {
 	padding-bottom: 2em;
 }
 
-input,
+/* input,
 text {
 	width: 100%;
 	margin: auto;
-}
+} */
 
 .inline,
 [type=checkbox] {
@@ -67,4 +67,10 @@ text {
 [type=checkbox] {
 	width: unset;
 	vertical-align: middle;
+}
+
+#general-information > input,
+#experience-reading-div > input {
+	height: 2em;
+	min-width: 50%;
 }
