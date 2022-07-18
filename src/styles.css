@@ -74,3 +74,8 @@ text {
 	height: 2em;
 	min-width: 50%;
 }
+
+#companies-div,
+#reading-style {
+	text-align: center;
+}
