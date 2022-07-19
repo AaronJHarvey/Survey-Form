@@ -8,6 +8,10 @@
 	font-family: Manga;
 }
 
+.container {
+	margin: 0 auto;
+}
+
 body {
 	background-image: url('https://images.unsplash.com/photo-1588497859490-85d1c17db96d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80');
 	background-size: 100%;
@@ -42,7 +46,7 @@ h1 {
 p {
 	text-align: center;
 	font-size: 14px;
-	margin: 1rem 1rem 0 1rem;
+	margin: 1rem 1rem 1rem 1rem;
 	font-family: Trebuchet MS;
 }
 
@@ -59,12 +63,6 @@ form {
 	min-width: 300px;
 	padding-bottom: 2em;
 }
-
-/* input,
-text {
-	width: 100%;
-	margin: auto;
-} */
 
 .inline {
 	width: unset;
@@ -112,25 +110,23 @@ text {
 	font-family: Trebuchet MS;
 }
 
+#experience-reading-div {
+	border: none;
+}
+
 #additional-info {
 	background-color: rgb(225, 225, 225);
 	border: 1px solid #ced4da;
 	border-radius: .25rem;
 	width: 100%;
+	margin: auto auto 15px auto;
 }
-/* 
-#submit {
-	margin: 1rem 0;
-	width: 100%;
-	height: 2.5rem;
-	background-color: rgb(153, 3, 3);
-	color: rgb(255, 255, 255);
-	font-family: ASM;
-	font-size: 25px;
-	padding: .25rem 0 1rem 0;
-	border: 1px solid black;
-	border-radius: .25rem;
-} */
+
+#submit-btn-div {
+	text-align: center;
+	margin: auto;
+	padding: 1em;
+}
 
 #submit {
 	background-color: rgb(153, 3, 3);
@@ -138,14 +134,14 @@ text {
 	font-family: ASM;
 	display: inline-flex;
 	height: 2.5rem;
-	width: 100%;
+	width: 50%;
 	padding: 0;
 	border: none;
 	border-radius: 5px;
 	overflow: hidden;
 	outline: none;
-	font-size: 16px;
-	font-size: 500;
+	font-size: 18px;
+	font-weight: 500;
 	cursor: pointer;
 }
 
@@ -156,6 +152,33 @@ text {
 	background-color: rgb(100, 1, 1);
 }
 
+.button__text,
+.button__icon {
+	display: inline;
+	align-items: center;
+	height: 100%;
+}
+
+.button__text {
+	width: 75%;
+	padding: 10px 0 0 20px;
+}
+
+.button__icon {
+	width: 25%;
+	padding: 5px;
+	background-color: rgba(0, 0, 0, .15);
+}
+
 #stan-icon {
 	height: 2rem;
+}
+
+fieldset {
+	border: none;
+}
+
+#additional-info-div,
+header {
+	border-bottom: 5px solid rgb(138, 122, 122);
 }

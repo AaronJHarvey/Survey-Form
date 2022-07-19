@@ -2,113 +2,114 @@
 
 <html lang="en">
 
-    <head>
-        <title>
-            Comic Survey
-        </title>
-        <link rel='stylesheet' href="styles.css">
-    </head>
+        <head>
+            <title>
+                Comic Survey
+            </title>
+            <link rel='stylesheet' href="styles.css">
+        </head>
 
-    <body>
-        <div id="survey">
-            <header>
-                <fieldset>
-                    <h1 id="title">COMIC READER SURVEY</h1>
-                    <h4 id="survey-date">Summer 2022</h4>
+        <body>
+            <div id="survey">
+                <header>
+                    <fieldset>
+                        <h1 id="title">COMIC READER SURVEY</h1>
+                        <h4 id="survey-date">Summer 2022</h4>
 
-                    <p id="description">Please Help Us Better Understand Your Comic Book Reading Habits!</p>
-                </fieldset>
-            </header>
+                        <p id="description">Please Help Us Better Understand Your Comic Book Reading Habits!</p>
+                    </fieldset>
+                </header>
 
-            <form id="survey-form">
-                <fieldset>
+                <form id="survey-form">
+                    <fieldset>
 
-
-                    <div id="general-information">
-                        <label id="name-label"> Enter Your Name:</label>
-                            <input id='name' type="text" placeholder="Name" required />
-                        <label id="email-label"> Enter Your Email:</label>
-                            <input id='email' type='email' placeholder="Email" required/>
-                        <label id="number-label"> Enter Your Age:</label>
-                            <input id="number" type="number" min="7" max="125" placeholder="Age" />
-                    </div>
-
-                    <div id="experience-reading-div">
-                        <label id="experience-label"> How Long Have You Been Reading Comics?</label>
-                            <input id="reading-experience" type="number" min='0' max='125' placeholder="years">
-                    </div> 
-
-                    <div id="companies-div">
-                        <label id="company-label"> What Companies do you buy/read regularly? </label>
-                            <label>
-                                <input type="checkbox" name="company" value="marvel">Marvel
-                            </label>
-                            <label>
-                                <input type="checkbox" name="company" value="dc-comics">DC Comics
-                            </label>
-                            <label>
-                                <input type="checkbox" name="company" value="boom">Boom Studios
-                            </label>
-                            <label>
-                                <input type="checkbox" name="company" value="image">Image Comics
-                            </label>
-                            <label>
-                                <input type="checkbox" name="company" value="dark-horse">Dark Horse
-                            </label>
-                            <label>
-                                <input type="checkbox" name="company" value="other">Other
-                            </label>
-                    </div>
-
-                   <div id="reading-style">
-                       <label> How do you most often read your comics?</label>
-                            <input type="radio" name="reading-style" value="physical" class='inline'>Physical/Floppy                
-                            <input type="radio" name="reading-style" value="digital" class='inline'>Digital/Online
-                    </div>
-
-                    <div id="reading-costs">
-                        <label id="dropdown-label"> How much do you estimate you spend on comics in a month? </label>
-                            <select id="dropdown">
-                                <option value="">
-                                    (Please Select an Amount)
-                                </option>
-                                <option value="zero-to-nineteen">
-                                    $0-$19
-                                </option>
-                                <option value="twenty-to-thirty-nine">
-                                    $20-$39
-                                </option>
-                                <option value="forty-to-fifty-nine">
-                                    $40-$59
-                                </option>
-                                <option value="sixty-to-seventy-nine">
-                                    $60-$79
-                                </option>
-                                <option value="eighty-to-ninety-nine">
-                                    $80-$99
-                                </option>
-                                <option value="one-hundred-plus">
-                                    $100+
-                                </option>
-                            </select>
+                        <div id="general-information">
+                            <label id="name-label"> Enter Your Name:</label>
+                                <input id='name' type="text" placeholder="Name" required />
+                            <label id="email-label"> Enter Your Email:</label>
+                                <input id='email' type='email' placeholder="Email" required/>
+                            <label id="number-label"> Enter Your Age:</label>
+                                <input id="number" type="number" min="7" max="125" placeholder="Age" />
                         </div>
-                    
-                    <div id="additional-info-div">    
-                        <label> Any Additional Relevant Information You Wish To Share?</label>
-                            <textarea id="additional-info" rows="5" cols="30" placeholder="My favorite superhero is Spider-Man...." ></textarea>
-                    </div> 
 
-                </fieldset>
+                        <div id="experience-reading-div">
+                            <label id="experience-label"> How Long Have You Been Reading Comics?</label>
+                                <input id="reading-experience" type="number" min='0' max='125' placeholder="years">
+                        </div> 
 
-                <button type="submit" id="submit">
-                    <span class="button__text">EXCELSIOR!</span>
-                    <span class="button__icon">
-                        <img src="../img/stan_lee.png" alt="Stan-Lee-Icon" id="stan-icon">
-                    </span>
-                </button>
-                <!-- <button type="submit" id="submit"> <img src="../img/stan_lee.png"alt="Stanlee Icon" id="stan-icon"> EXCELSIOR!</button> -->
-            </form>
-        </div>
-    </body>
+                        <div id="companies-div">
+                            <label id="company-label"> What Companies do you buy/read regularly? </label>
+                                <label>
+                                    <input type="checkbox" name="company" value="marvel">Marvel
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="company" value="dc-comics">DC Comics
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="company" value="boom">Boom Studios
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="company" value="image">Image Comics
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="company" value="dark-horse">Dark Horse
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="company" value="other">Other
+                                </label>
+                        </div>
+
+                    <div id="reading-style">
+                        <label> How do you most often read your comics?</label>
+                                <input type="radio" name="reading-style" value="physical" class='inline'>Physical/Floppy                
+                                <input type="radio" name="reading-style" value="digital" class='inline'>Digital/Online
+                        </div>
+
+                        <div id="reading-costs">
+                            <label id="dropdown-label"> How much do you estimate you spend on comics in a month? </label>
+                                <select id="dropdown">
+                                    <option value="">
+                                        (Please Select an Amount)
+                                    </option>
+                                    <option value="zero-to-nineteen">
+                                        $0-$19
+                                    </option>
+                                    <option value="twenty-to-thirty-nine">
+                                        $20-$39
+                                    </option>
+                                    <option value="forty-to-fifty-nine">
+                                        $40-$59
+                                    </option>
+                                    <option value="sixty-to-seventy-nine">
+                                        $60-$79
+                                    </option>
+                                    <option value="eighty-to-ninety-nine">
+                                        $80-$99
+                                    </option>
+                                    <option value="one-hundred-plus">
+                                        $100+
+                                    </option>
+                                </select>
+                            </div>
+                        
+                        <div id="additional-info-div">    
+                            <label> Any Additional Relevant Information You Wish To Share?</label>
+                                <textarea id="additional-info" rows="5" cols="30" placeholder="My favorite superhero is Spider-Man...." ></textarea>
+                        </div> 
+
+                    </fieldset>
+                    <div id="submit-btn-div">
+                        <button type="submit" id="submit">
+                            <span class="button__text">EXCELSIOR!</span>
+                            <span class="button__icon">
+                                <img src="../img/stan_lee.png" alt="Stan-Lee-Icon" id="stan-icon">
+                            </span>
+                        </button>
+                    </div>
+                    <!-- <button type="submit" id="submit"> <img src="../img/stan_lee.png"alt="Stanlee Icon" id="stan-icon"> EXCELSIOR!</button> -->
+                </form>
+            </div>
+        </body>
+    
 </html>
 
