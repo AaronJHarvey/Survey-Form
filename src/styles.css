@@ -118,3 +118,16 @@ text {
 	border-radius: .25rem;
 	width: 100%;
 }
+
+#submit {
+	margin: 1rem 0;
+	width: 100%;
+	height: 2.5rem;
+	background-color: rgb(129, 3, 3);
+	color: rgb(255, 255, 255);
+	font-family: ASM;
+	font-size: 25px;
+	padding: .25rem 0 1rem 0;
+	border: 1px solid black;
+	border-radius: .25rem;
+}
