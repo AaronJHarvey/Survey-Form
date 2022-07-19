@@ -149,6 +149,13 @@ text {
 	cursor: pointer;
 }
 
+#submit:hover {
+	background-color: rgb(122, 1, 1);
+}
+#submit:active {
+	background-color: rgb(100, 1, 1);
+}
+
 #stan-icon {
 	height: 2rem;
 }
