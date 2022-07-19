@@ -111,3 +111,10 @@ text {
 	padding: .25rem .75rem .25rem .75rem;
 	font-family: Trebuchet MS;
 }
+
+#additional-info {
+	background-color: rgb(225, 225, 225);
+	border: 1px solid #ced4da;
+	border-radius: .25rem;
+	width: 100%;
+}
